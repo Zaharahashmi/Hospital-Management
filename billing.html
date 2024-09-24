@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+            <head>
+                  <style>
+                        body
+                        {
+                            background-image: url('bgdisplay.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            font-family: Arial, sans-serif;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 110vh;
+                            margin: 0;
+                            color: #333;
+                    
+                        }
+                        input[type="text"]
+                        {
+                            width: 100%;
+                            height: 45px;
+                            font-size: 1rem; /* Input font size */
+                            padding: 5px;
+                            margin-bottom: 10px; /* Space between inputs */
+                            border: 1px solid #ccc; /* Light gray border */
+                            border-radius: 5px; /* Rounded corners */
+                            box-sizing: border-box;
+                        }
+                        h1 {
+                        text-align: center;
+                        margin-bottom: 5px;
+                        font-size: 2.5rem; /* Responsive font size */
+                        color: #2c3e50; /* Darker color for contrast */
+                    }
+                        .wrapper
+                        {
+                            background-color: rgba(255, 255, 255, 0.9); /* Light background with slight transparency */
+                            border-radius: 10px;
+                            padding: 40px;
+                            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+                            width: 90%;
+                            max-width: 600px; /* Maximum width for larger screens */
+                        }
+                        input[type="submit"]
+                        {
+                            width: 100%;
+                            height: 50px;
+                            font-size: 1.2rem; /* Larger font size for submit button */
+                            background-color: #FF69B4; /* Blue background */
+                            color: white; /* White text */
+                            border: none; /* No border */
+                            border-radius: 5px; /* Rounded corners */
+                            cursor: pointer; /* Pointer cursor on hover */
+                            transition: background-color 0.3s ease;
+                        }
+                            </style>
+      <title>form</title>
+
+            </head>
+
+            <body>
+                  <div class="wrapper">
+                    <h1>Billing Details</h1>
+            <form action="billing_insert.php" method="post">
+
+        INPATIENT_ID:<input type="text" name="ip_id"><br><br>
+
+                   INPATIENT NAME:<input type="text" name="name"><br><br>
+
+            BILL NO:<input type="text" name="billno"><br><br>
+
+            NO OF DAYS:<input type="text" name="days"><br><br>
+
+            ROOM RENT:<input type="text" name="roomrent"><br><br>
+
+            MEDICAL EXPENSES:<input type="text" name="medical"><br><br>
+
+            LAB CHARGES:<input type="text" name="lab"><br><br>
+
+            <input type="submit" name="submitval" value="submit">
+
+            </form>
+            </div>
+            </body>
+
+</html>

@@ -1,0 +1,185 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto:wght@100&display=swap');
+body{
+    background-color:#344a72;
+    font-family:'Roboto',sans-serif;
+    }
+    .signup{
+    width:360px;
+    height:620px;
+    margin:auto;
+    background-color:white;
+    background-position:3px;
+    }
+    .login{
+    width:360px;
+    height:280px;
+    margin:auto;
+    background-color:white;
+    background-position:3px;
+    }
+    h1{
+    text-align:center;
+    padding-top:15px;
+    }
+    form{
+    width:320px;
+    margin-left:20px;
+    }
+    form label{
+    display:flex;
+    margin-top:20px;
+    font-size:18px;
+    }
+    form input{
+    width:100%;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:5px;
+    outline:none;
+    }
+    input[type="button"]{
+    width:320px;
+    height:35px;
+    margin-top:10px;
+    background-color:#20B2AA;
+    color:white;
+    font-size:20px;
+    }
+    p{
+    text-align:center;
+    padding-top:20px;
+    font-size:20px;
+    }
+    .p1{
+    text-align:center;
+    color:white;
+    font-size:15px;
+    margin-top:-10px;
+    }
+    .p1 a{
+    color:teal;
+    }
+     */
+
+
+     /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('background-image.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signup {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.signup label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+.signup input[type="text"],
+.signup input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.signup input[type="button"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #FF69B4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.signup input[type="button"]:hover {
+  background-color: #FF1493;
+}
+
+.signup p {
+  margin-top: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.signup a {
+  color: #FF69B4;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.p1 {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+.p1 a {
+  color: #FF69B4;
+  text-decoration: none;
+}
+
+.p1 a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup {
+      padding: 20px;
+      width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup h1 {
+      font-size: 1.5rem;
+  }
+
+  .signup input[type="text"],
+  .signup input[type="password"],
+  .signup input[type="button"] {
+      font-size: 0.9rem;
+      padding: 10px;
+  }
+}

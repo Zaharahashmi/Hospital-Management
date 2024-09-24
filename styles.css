@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto:wght@100&display=swap');
+.containers{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    }
+    
+    .con{
+    margin-top:-1500px;
+    width:140cm;
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    }
+    
+    .box{
+    margin:10px auto;
+    box-shadow:0 0 20px 2px rgba(0,0,0,.1);
+    transition:2s;
+    }
+    
+    .box img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+    }
+    
+    .box:hover{
+    transform:scale(1,2);
+    z-index:2;
+    }
+
+    .brand-banner{
+        font-family: 'Great Vibes', cursive;
+        font-size:180px;
+        color:blueviolet;
+        text-align:center;
+        justify-content:center;
+        text-shadow:4px 4px 7px orangered;
+        font-weight:400px;
+        cursor:pointer;
+      }
+    .brand-banner:hover{
+        color:rgb(46, 46, 15);
+        transition:color 1s ease-in;
+    }
+   
+    @keyframes move{
+    50%{
+    transform:translateY(-50px);
+    }
+    100%{
+    transform:translateY(0px);
+    }
+    }
+    
+    .style{
+    margin-top:400px;
+    font-family:'Great Vibes',cursive;
+    font-size:100px;
+    color:red;
+    text-align:center;
+    justify-content:center;
+    cursor:pointer;
+    text-shadow:5px 3px 7px darkolivegreen;
+    }
+    .style:hover{
+    color:SeaGreen;
+    transition:color infinite ease-in;
+    object-position:top;
+    padding:25px 5px 15px 20px;
+    }
+    .signup{
+    position:absolute;
+    margin-left:125cm;
+    color:crimson;
+    font-size:80px;
+    }
+    .login{
+    position:absolute;
+    margin-left:112cm;
+    color:crimson;
+    font-size:80px;
+    }
+    .menubar{
+      font-size:90px;
+      background-color: orange;
+      color:blueviolet;
+      display: block;
+      justify-content:center;
+      }
+      .menubar ul {
+      list-style-type:none;
+      }
+      .menubar ul li{
+      display: inline-block;
+      height:50px;
+      line-height:50px;
+      }
+      
+    .fashion{
+    background-color:#66FFFF;
+    font-size:90px;
+    font-family:'Dancing Script',cursive;
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align:left;
+    color:darkmagenta;
+    text-shadow:5px 3px 3px darkolivegreen;
+    }
+    #content
+    {
+    background-color:lightcyan;
+    font-family:'Great vibes',cursive;
+    text-justify:center;
+    font-size:100px;
+    list-style:2px;
+    word-spacing:normal;
+    }
+    #content1
+    {
+    background-color:lightcyan;
+    font-family:'Great vibes',cursive;
+    text-justify:center;
+    font-size:100px;
+    list-style:2px;
+    word-spacing:normal;
+    }
+    img{
+     height:800px;
+     width:1000px;
+    }
+    
+
+    

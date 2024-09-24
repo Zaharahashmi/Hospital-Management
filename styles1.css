@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.signup {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.signup label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+.signup input[type="text"],
+.signup input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.signup input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF69B4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.signup input[type="button"]:hover {
+    background-color: #FF1493;
+}
+
+.signup p {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.signup a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+.p1 a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.p1 a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signup {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup h1 {
+        font-size: 1.5rem;
+    }
+
+    .signup input[type="text"],
+    .signup input[type="password"],
+    .signup input[type="button"] {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background-image.jpeg'); /* Optional background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.login label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF69B4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.login input[type="button"]:hover {
+    background-color: #FF1493;
+}
+
+.login a {
+    color: #FF69B4;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block; /* Make the link block level for easier clicking */
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.p1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+.p1 a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.p1 a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login {
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .login h1 {
+        font-size: 1.5rem;
+    }
+
+    .login input[type="text"],
+    .login input[type="password"],
+    .login input[type="button"] {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
